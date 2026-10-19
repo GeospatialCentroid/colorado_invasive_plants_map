@@ -32,7 +32,7 @@ venv\Scripts\activate
 macOS / Linux:
 
 ```
-source venv/bin/activate
+source venv/bin/activate venv
 ```
 Upgrade pip and install the dependencies from the requirements.txt file:
 
@@ -42,12 +42,8 @@ pip install -r requirements.txt
 ```
 
 Launching the Notebook
-Ensure your environment (geo-env or venv) is activated.
+Ensure your environment (venv) is activated.
 
-
-```
-pip install jupyterlab
-```
 
 Launch JupyterLab:
 
